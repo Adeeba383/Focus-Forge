@@ -35,4 +35,4 @@ FocusForge/
 This project is licensed under the MIT License - see the [LICENSE] file for details
 
 # Preview
-Here is the link to see the project on your browser: 
+Here is the link to see the project on your browser: https://adeeba383.github.io/Focus-Forge/
