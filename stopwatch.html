@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="checkbox" id="theme-toggle" hidden>
+    <label for="theme-toggle" class="toggle-btn">🌙 Dark Mode</label>
+    <div id="section1">
+    <h1>*STOPWATCH*</h1>
+    <div id="display-container">
+        <div id="display">00:00:00:00</div>
+        <div id="buttons">
+        <button id="button1" onclick="start()">Start</button>
+        <button id="button2" onclick="stop()">Stop</button>
+        <button id="button3" onclick="reset()">Reset</button>
+    </div>
+    <button id="backbtn"><a href="index.html">Home Page</a></button>
+    </div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
